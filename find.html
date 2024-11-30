@@ -25,7 +25,11 @@
     <header class="screen-header">
       <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
+        <span>
+          <a href="find.html">
+            <i class="fas fa-search fa-lg"></i>
+          </a>
+        </span>
         <span class="setting">
           <span class="reddot badge"></span>
           <a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
@@ -54,7 +58,51 @@
       </div>
       <div class="recommended-friends">
         <h6 class="recommended-friends__title">Recommended Friends</h6>
-        <span>You have no recommended friends.</span>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://static.wikia.nocookie.net/megaman/images/e/e1/Zan%27ei_Gundan_Emblem.png"
+              class="user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Ghost</h4>
+              <h6 class="user-component__subtitle">From the shadows, I come</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <i class="fas fa-user-plus"></i>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://static.wikia.nocookie.net/megaman/images/1/19/Jin%27en_Gundan_Emblem.png"
+              class="user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Lizard</h4>
+              <h6 class="user-component__subtitle">bUrn tO ThE GRoUnd</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <i class="fas fa-user-plus"></i>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://static.wikia.nocookie.net/megaman/images/8/83/Rekku_Gundan_Emblem.png"
+              class="user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Bird</h4>
+              <h6 class="user-component__subtitle">Wheeeeeeee</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <i class="fas fa-user-plus"></i>
+          </div>
+        </div>
       </div>
       <div class="open-chat">
         <div class="open-chat__header">
@@ -102,9 +150,15 @@
           </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="find.html"
-            ><i class="fas fa-search fa-2x"></i
-          ></a>
+          <a class="nav__link" href="openchats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fa-regular fa-comments fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn selected">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
