@@ -30,3 +30,6 @@ body {
 .main-screen {
   padding: 30px var(--horizontal-space) 72px var(--horizontal-space);
 }
+.loginbody {
+  height: calc(100vh - 100px);
+}
