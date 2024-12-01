@@ -4,6 +4,7 @@
   align-items: center;
   padding: 50px 20px var(--horizontal-space) 20px;
   margin-bottom: 15px;
+  border-bottom: 1px solid rgba(121, 121, 121, 0.7);
 }
 
 .alt-header__column {

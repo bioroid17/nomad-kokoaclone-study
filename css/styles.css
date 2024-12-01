@@ -22,11 +22,11 @@
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
-  margin-top: 130px;
-  height: 100vh;
+  margin-top: 100px;
+  background-image: linear-gradient(#328afe, #74d5fd);
+  height: calc(100vh - 200px);
 }
 
 .main-screen {
-  padding: 0px var(--horizontal-space) 73px var(--horizontal-space);
-  height: 100%;
+  padding: 30px var(--horizontal-space) 72px var(--horizontal-space);
 }
