@@ -22,8 +22,11 @@
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
+  margin-top: 130px;
+  height: 100vh;
 }
 
 .main-screen {
-  padding: 0px var(--horizontal-space);
+  padding: 0px var(--horizontal-space) 73px var(--horizontal-space);
+  height: 100%;
 }
