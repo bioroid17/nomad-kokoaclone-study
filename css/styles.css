@@ -30,6 +30,18 @@ body {
 .main-screen {
   padding: 30px var(--horizontal-space) 72px var(--horizontal-space);
 }
+
+body > img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -10;
+}
 .loginbody {
   height: calc(100vh - 100px);
 }
